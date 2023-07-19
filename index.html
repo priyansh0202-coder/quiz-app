@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesBox">1) This is my dummy question</h2>
+            <div class="row">
+                <input class="options" id="Option1" type="radio" value="a" name="Option">
+                <label for="Option1">A) Option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="Option2" type="radio" value="b" name="Option">
+                <label for="Option2">B) Option 2</label>
+            </div>
+            <div class="row">
+                <input class="options" id="Option3" type="radio" value="c" name="Option">
+                <label for="Option3">C) Option 3</label>
+            </div>
+            <div class="row">
+                <input class="options" id="Option4" type="radio" value="d" name="Option">
+                <label for="Option4">D) Option 4</label>
+            </div>
+            <button class="btn" onclick="submitQuiz ()">
+                Summit
+            </button>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
